@@ -1,0 +1,47 @@
+# gptokeyb mapping for Geometry Wars 3: Dimensions
+#
+# NOT USED BY DEFAULT (USE_GPTOKEYB=0 in the launcher). The game reads the
+# controller natively through the SDL GameController API and honours
+# PortMaster's per-device mapping via $SDL_GAMECONTROLLERCONFIG, so gptokeyb is
+# left off to avoid it EVIOCGRAB-ing the pad away from the game.
+#
+# Geometry Wars is twin-stick: left stick / d-pad moves, right stick aims and
+# fires. The game's own input path (see README) is what the port uses; the
+# bindings below are only a fallback for gptokeyb setups.
+#
+# Start+Select quits (handled by the engine or by gptokeyb's built-in kill
+# watch when gptokeyb is enabled).
+
+back = esc
+start = enter
+guide = enter
+
+a = x
+b = z
+x = c
+y = v
+
+l1 = a
+r1 = s
+l2 = q
+r2 = w
+l3 = 1
+r3 = 2
+
+up = up
+down = down
+left = left
+right = right
+
+left_analog_up = up
+left_analog_down = down
+left_analog_left = left
+left_analog_right = right
+
+right_analog_up = w
+right_analog_down = s
+right_analog_left = a
+right_analog_right = d
+
+# Start + Select quits the game.
+hotkey = select

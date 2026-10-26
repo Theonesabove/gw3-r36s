@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <game>
+    <path>./Geometry Wars 3.sh</path>
+    <name>Geometry Wars 3: Dimensions</name>
+    <desc>Native 32-bit ARM port of the Android version of Geometry Wars 3: Dimensions, running the original libgwnext.so engine through a custom Android-on-Linux loader (KMS/DRM, GLES2, FMOD). Runs 1.3.0 Evolved with its console menus. Supply your own APK and OBB.</desc>
+    <releasedate>20141126T000000</releasedate>
+    <developer>Lucid Games</developer>
+    <publisher>Activision</publisher>
+    <genre>Arcade / Twin-stick shooter</genre>
+    <image>./gw3/screenshot.png</image>
+  </game>
+</gameList>
